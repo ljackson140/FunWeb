@@ -130,3 +130,38 @@ ul {
 .text p .hidetext {
   position: absolute;
 }
+
+/*
+======= Sponsor Logo========
+*/
+
+.sponsor {
+  position: absolute;
+  right: 6.25rem;
+  bottom: 6.25rem;
+  text-align: center;
+}
+
+.sponsor img {
+  width: 12.5rem;
+  transform: rotate(-90deg);
+}
+
+.sponsor p {
+  margin-top: 1.25rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  transform: rotate(180deg);
+}
+
+/*
+======= Distortion Effect========
+*/
+.distortion {
+  width: 36.25rem;
+  height: 45rem;
+  position: absolute;
+  right: 18.75rem;
+  bottom: 0;
+}
